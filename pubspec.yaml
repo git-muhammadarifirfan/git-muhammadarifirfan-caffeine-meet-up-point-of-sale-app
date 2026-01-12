@@ -1,0 +1,38 @@
+name: pos_coffeeshop_ayudian
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  curved_labeled_navigation_bar: ^2.0.6
+  supabase_flutter: ^2.5.6
+  intl: ^0.20.2
+  image_picker: ^1.0.7
+  csv: ^6.0.0
+  path_provider: ^2.1.5
+  esc_pos_utils_plus: ^2.0.3
+  print_bluetooth_thermal: ^1.1.0
+  pdf: ^3.11.3
+  excel: ^4.0.6
+  share_plus: ^12.0.1
+  flutter_animate: ^4.5.0
+  device_info_plus: ^10.1.0
+  permission_handler: ^11.3.1
+  shared_preferences: ^2.2.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/logo/
